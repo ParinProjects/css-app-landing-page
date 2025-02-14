@@ -11,3 +11,215 @@ body{
 header{
     width: 100vw;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sention2 Stamp */
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.boxinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 387px;
+    height: 272px;
+    padding: 28px;
+    border-radius: 24px;
+}
+
+.boxinfo.item1{
+    background-color: #D7E5F6;
+}
+
+.boxinfo.item2{
+    background-color: #D8E0FC;
+}
+
+.boxinfo.item3{
+    background-color: #E8DCF6;
+}
+
+.boxinfo img{
+    width: 32px;
+    height: 32px;
+    top: 14px;
+    left: 14px;
+}
+
+.box2-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 331px;
+    height: 116px;
+}
+
+.box2-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    width: 60px;
+    height: 60px;
+}
+
+.box2-text h3{
+    font-size:  24px;
+    width: 331px;
+    height: 32px;
+    color: #1A1A2C;
+}
+
+.box2-text p{
+    font-size:  16px;
+    width: 331px;
+    height: 72px;
+    color: #5f5f76;
+}
