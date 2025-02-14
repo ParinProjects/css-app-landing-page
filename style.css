@@ -116,6 +116,7 @@ button:hover {
     justify-content: center;
     width: 100vw;
     height: auto;
+    margin-bottom: 100px;
 }
 
 .container2{
@@ -176,6 +177,7 @@ button:hover {
     width: 331px;
     height: 32px;
     color: #1A1A2C;
+    text-align: left; 
 }
 
 .box2-text p{
@@ -183,6 +185,7 @@ button:hover {
     width: 331px;
     height: 72px;
     color: #5f5f76;
+    text-align: left; 
 }
 
 
