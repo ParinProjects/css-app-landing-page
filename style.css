@@ -8,142 +8,102 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+header {
     width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    border: #333 solid 1px;
+    /* padding: 20px; */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container {
+    width: 95%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 99px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1{
+    color: #1A1A2C;
+    font-size: 30px;
+}
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menu ul {
+    display: flex;
+    gap: 24px;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    color: #6c5ce7;
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+    margin-top: 90px;
+
+    p{
+        color: #5E44FF;
+    }
+    
+}
+
+section h1 {
+    font-size: 96px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #1A1A2C;
+}
+
+section span {
+    color: #5E44FF;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    background: #1A1A2C;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background: #6c5ce7;
+}
+
+.info p {
+    margin-top: 30px;
+    color: #1A1A2C;
+    font-weight: 550;
+    font-size: 28px;
+}
 
 
 
